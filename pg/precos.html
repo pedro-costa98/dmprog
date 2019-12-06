@@ -148,9 +148,71 @@
 							</div>
 						</div>	
 				    </div>
-			    </div>
+			    </div>			    
 			</div>
 		</div>
+
+
+		<!-- grid ferias + transporte (1 linha c/ 3 cards)-->
+
+		<div class="container" align="center">
+
+			<div class="alert alert-success" role="alert">
+				<h3 align="center">Férias + Transporte</h3>
+			</div>			
+						
+			<div class="row">
+
+				<div class="col">
+					<div class="card border-success mb-3" style="max-width: 18rem; a">
+						<div class="card-header">Opção 1</div>
+						<div class="card-body text-secondary">
+
+							<h5 class="card-title">Praia</h5>
+
+							<!-- buscar preços ao ficheiro .json pelas id's no ficheiro .js-->		
+							<p class="card-text">Praia/Carro: <b><span id="PC"></span>&#8364</b></p>
+							<p class="card-text">Praia/Autocarro: <b><span id="PA"></span>&#8364</b></p>
+							<p class="card-text">Praia/Avião: <b><span id="PV"></span>&#8364</b></p>
+						</div>
+					</div>					
+				</div>
+
+				<div class="col">					
+					<div class="card border-success mb-3" style="max-width: 18rem; a">
+						<div class="card-header">Opção 2</div>
+						<div class="card-body text-secondary">
+
+							<h5 class="card-title">Ilha</h5>
+
+							<!-- buscar preços ao ficheiro .json pelas id's no ficheiro .js-->
+							<p class="card-text">Ilha/Carro: <b><span id="IC"></span>&#8364</b></p>
+							<p class="card-text">Ilha/Autocarro: <b><span id="IA"></span>&#8364</b></p>
+							<p class="card-text">Ilha/Avião: <b><span id="IV"></span>&#8364</b></p>
+						</div>
+					</div>						
+				</div>
+
+				<div class="col">
+					
+					<div class="card border-success mb-3" style="max-width: 18rem; a">
+						<div class="card-header">Opção 3</div>
+						<div class="card-body text-secondary">
+
+							<h5 class="card-title">Campo</h5>
+							
+							<!-- buscar preços ao ficheiro .json pelas id's no ficheiro .js-->		
+							<p class="card-text">Campo/Carro: <b><span id="CC"></span>&#8364</b></p>
+							<p class="card-text">Campo/Autocarro: <b><span id="CA"></span>&#8364</b></p>
+							<p class="card-text">Campo/Avião: <b><span id="CV"></span>&#8364</b></p>
+						</div>
+					</div>					
+				</div>				
+
+			</div>	
+		</div>
+
+
 		<!-- rodapé -->
 		<footer class="card-footer text-muted bg-dark" align="center">
 			<h5> &#169 21574 Pedro Costa </h5>	
@@ -160,5 +222,9 @@
 		<script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
 		<script src="../bootstrap/js/popper.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
+
+		<script src="jquery.min.js"></script>
+		<script src="api_json.js"></script>		
+
 	</body>
 </html>
